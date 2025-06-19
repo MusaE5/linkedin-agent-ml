@@ -1,0 +1,4 @@
+# Ignore raw data and large files
+data/raw/
+*.zip
+*.jsonl
