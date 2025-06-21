@@ -5,7 +5,7 @@ import random
 df = pd.read_parquet("data/interim/profiles_ai_ml.parquet")
 
 # Sample 30 random profiles for manual audit
-sample = df.sample(30, random_state=42)
+sample = df.sample(27, random_state=42)
 
 for i, row in sample.iterrows():
     print(f"\n=== Profile {i+1} ===")
